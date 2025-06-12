@@ -2,7 +2,7 @@ name: Build Windows App
 
 on:
   push:
-    branches: [ master ] # yoki master agar sizda shunday bo‘lsa
+    branches: [ master ]
 
 jobs:
   build:
@@ -23,6 +23,9 @@ jobs:
 
       - name: Build Windows Release
         run: flutter build windows
+
+      - name: Show contents of build folder (debug)
+        run: dir build\windows\runner\Release
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
