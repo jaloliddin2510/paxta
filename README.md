@@ -1,16 +1,21 @@
-# h_a
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🔧 Foydalanish bo‘yicha ko‘rsatmalar (sizga yoki jamoangizga)
 
-This project is a starting point for a Flutter application.
+1. Bu `README.md` faylni `main` branch’ga qo‘shing
+2. `.github/workflows/build-windows.yml` faylni yuklang
+3. Kodni GitHub’ga push qiling
+4. `Actions > Run workflow` orqali Windows `.exe` fayl tayyor bo‘ladi
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎥 Video / GIF formatda taqdimot kerakmi?
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Agar xohlasangiz, bu jarayonni tushuntirib beradigan **1-2 daqiqalik video yoki GIF ko‘rinishida step-by-step tutorial** tayyorlab beraman:
+
+- GitHub interface orqali qanday workflow ishga tushuriladi
+- Artifactsdan `.exe` faylni qayerdan olish mumkin
+- VS Code’ni qanday GitHub bilan sinxron ishlatish
+
+👉 Shu tarzdagi **video/gif prezentatsiya** kerak bo‘lsa, ayting — hoziroq tayyorlab beraman!
