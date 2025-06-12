@@ -2,7 +2,7 @@ name: Build Windows App
 
 on:
   push:
-    branches: [ main ] # yoki master agar sizda shunday bo‘lsa
+    branches: [ master ] # yoki master agar sizda shunday bo‘lsa
 
 jobs:
   build:
